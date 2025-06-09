@@ -1,5 +1,5 @@
 {
-  "name": "Calendar Time Manager",
+  "name": "Google Calendar Time Tracker",
   "description": "A web application to analyze Google Calendar data for time availability and project task breakdown, featuring interactive charts and calendar categorization.",
   "requestFramePermissions": []
 }

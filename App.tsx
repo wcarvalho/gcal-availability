@@ -627,7 +627,7 @@ const App: React.FC = () => {
       <header className="bg-slate-800 text-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold flex items-center">
-            <CalendarDaysIcon className="w-8 h-8 mr-2 text-teal-400"/> Calendar Time Manager
+            <CalendarDaysIcon className="w-8 h-8 mr-2 text-teal-400"/> Google Calendar Time Tracker
           </h1>
           {!isSignedIn ? (
             <button
@@ -1022,7 +1022,7 @@ const App: React.FC = () => {
         </div>
       )}
        <footer className="text-center py-4 text-sm text-slate-500 border-t border-slate-200 mt-auto bg-white">
-        Calendar Time Manager &copy; {new Date().getFullYear()}
+        Google Calendar Time Tracker &copy; {new Date().getFullYear()}
       </footer>
     </div>
   );
